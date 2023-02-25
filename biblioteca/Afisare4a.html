@@ -1,0 +1,103 @@
+<html>
+<head>
+<style>
+	body {
+		background-image:url("books3.jpg");
+		background-repeat:no-repeat;
+		background-attachment:fixed;
+		background-size:cover;
+	}
+	h1 {
+		color:white;
+		text-align:center;
+		font-size:30px;
+	}
+	table, th, td {
+		border: 2px solid white;
+	}
+	tr {
+		color: white;
+	}
+	.BACK {
+            font-size:15px;
+			background-color:transparent;
+			color: white;
+			transition-duration:1s;
+			text-align:center;
+			border-color: transparent;
+			border-radius:50px 50px 50px 50px;
+			height:50px;
+			width:75px;
+			
+    }
+	.BACK:hover {
+		background-color:#FF5722;
+		color:white;
+    }
+	.MAIN {
+            font-size:15px;
+			background-color:transparent;
+			color: white;
+			transition-duration:1s;
+			text-align:center;
+			border-color: transparent;
+			border-radius:50px 50px 50px 50px;
+			height:50px;
+			width:75px;
+    }
+	.MAIN:hover {
+		background-color:#FF5722;
+		color:white;
+    }
+	.NEXT {
+            font-size:15px;
+			background-color:transparent;
+			color: white;
+			transition-duration:1s;
+			text-align:center;
+			border-color: transparent;
+			border-radius:50px 50px 50px 50px;
+			height:50px;
+			width:75px;
+    }
+	.NEXT:hover {
+		background-color:#FF5722;
+		color:white;
+    }
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+</style>
+<title>Afisare 4a)</title>
+</head>
+<body>
+<h1>4.a) Sa se gaseasca numele, adresa si numarul de telefon pentru persoanele ce au depasit termenul de restituire cu mai mult de 7 zile.</h1>
+<form action="Cerinta4a.php" method=post>
+<table class="center">
+<tr>
+<td>Introduceti numarul de zile de intarziere:</td>
+<td align="center"><input type="text" name="zile_int" size="5" maxlength="20"></td>
+</tr>
+<tr>
+<td colspan="2" align="center"><input type=submit value="Cauta"></td>
+</tr>
+</table>
+</form>
+</body>
+
+<p align = "center">
+<button class="BACK"
+	onclick="history.back()">BACK
+    </button>
+
+<button class="MAIN" 
+    onclick="window.location.href = 'http://127.0.0.1/biblioteca/index.html';">MAIN
+    </button>
+	
+<button class="NEXT" 	
+	onclick="window.location.href = 'http://127.0.0.1/biblioteca/Cerinta4b.php';">NEXT
+	</button>
+</p>
+	
+</html>
